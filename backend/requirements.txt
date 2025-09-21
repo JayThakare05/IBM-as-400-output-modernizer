@@ -1,0 +1,35 @@
+# FastAPI and ASGI Server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Data Processing
+pandas==2.1.4
+numpy==1.25.2
+openpyxl==3.1.2
+chardet==5.2.0
+
+# AI/ML (Optional - will fallback gracefully if not available)
+transformers==4.36.2
+torch==2.1.2
+
+# Configuration and Validation
+pydantic==2.5.2
+pydantic-settings==2.1.0
+
+# System Monitoring
+psutil==5.9.6
+
+# Development and Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2
+
+# Code Quality
+black==23.11.0
+isort==5.12.0
+flake8==6.1.0
+
+# Documentation
+mkdocs==1.5.3
+mkdocs-material==9.4.8
